@@ -14,7 +14,7 @@ AnimatorStateMachine:
     m_Position: {x: 370, y: 40, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -496357654488510483}
-    m_Position: {x: 180.73892, y: 179.86903, z: 0}
+    m_Position: {x: 910, y: 1070, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -58,10 +58,10 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -2272994138718260450}
-    m_Position: {x: 780, y: 990, z: 0}
+    m_Position: {x: 1080, y: 860, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 405446639328868622}
-    m_Position: {x: 670, y: 590, z: 0}
+    m_Position: {x: 1230, y: 590, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions:
@@ -182,18 +182,6 @@ AnimatorController:
   m_AnimatorParameters: []
   m_AnimatorLayers:
   - serializedVersion: 5
-    m_Name: eye_layer
-    m_StateMachine: {fileID: 5106742648381494867}
-    m_Mask: {fileID: 0}
-    m_Motions: []
-    m_Behaviours: []
-    m_BlendingMode: 1
-    m_SyncedLayerIndex: -1
-    m_DefaultWeight: 1
-    m_IKPass: 0
-    m_SyncedLayerAffectsTiming: 0
-    m_Controller: {fileID: 9100000}
-  - serializedVersion: 5
     m_Name: dancing_layer
     m_StateMachine: {fileID: -7232989131923209563}
     m_Mask: {fileID: 0}
@@ -202,6 +190,18 @@ AnimatorController:
     m_BlendingMode: 0
     m_SyncedLayerIndex: -1
     m_DefaultWeight: 0
+    m_IKPass: 0
+    m_SyncedLayerAffectsTiming: 0
+    m_Controller: {fileID: 9100000}
+  - serializedVersion: 5
+    m_Name: eye_layer
+    m_StateMachine: {fileID: 5106742648381494867}
+    m_Mask: {fileID: 0}
+    m_Motions: []
+    m_Behaviours: []
+    m_BlendingMode: 1
+    m_SyncedLayerIndex: -1
+    m_DefaultWeight: 1
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
@@ -223,9 +223,9 @@ AnimatorController:
     m_Mask: {fileID: 0}
     m_Motions: []
     m_Behaviours: []
-    m_BlendingMode: 1
+    m_BlendingMode: 0
     m_SyncedLayerIndex: -1
-    m_DefaultWeight: 1
+    m_DefaultWeight: 0
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
@@ -427,10 +427,10 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 210636665851114961}
-    m_Position: {x: 350, y: 80, z: 0}
+    m_Position: {x: 1020, y: 700, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1548963540489381204}
-    m_Position: {x: 230, y: 200, z: 0}
+    m_Position: {x: 900, y: 560, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []

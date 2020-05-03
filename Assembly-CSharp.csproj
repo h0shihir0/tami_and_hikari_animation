@@ -65,7 +65,9 @@
     <Compile Include="Assets\3Dobj\Planet Earth Free\SpinFree.cs" />
     <Compile Include="Assets\Scripts\AnimationPlayAll.cs" />
     <Compile Include="Assets\Scripts\Hikarimoving.cs" />
+    <Compile Include="Assets\Scripts\HikariWalkingAround.cs" />
     <Compile Include="Assets\Scripts\lose_tsukkomi_walking.cs" />
+    <Compile Include="Assets\Scripts\ProducingHikariRandom.cs" />
     <Compile Include="Assets\Scripts\RotateText.cs" />
     <Compile Include="Assets\Scripts\StratStops.cs" />
     <Compile Include="Assets\Scripts\tsukkomi_walking.cs" />
