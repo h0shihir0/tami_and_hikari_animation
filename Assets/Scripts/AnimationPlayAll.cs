@@ -35,7 +35,7 @@ public class AnimationPlayAll : MonoBehaviour
         // Start is called before the first frame update
         sounds = new AudioClip[] { sound01, sound02, sound03, sound04, sound05, sound06, sound07, sound08 };
         //anims = new AnimationClip[] { anim01, anim02, anim03, anim04, anim05, anim06, anim07, anim08 };
-        StartCoroutine("Wait");
+        //StartCoroutine("Wait");
         //foreach (AnimationState anim in tsukkomi.GetComponent<Animation>())
         //{ 
         //    this.animations.Add(anim.clip);

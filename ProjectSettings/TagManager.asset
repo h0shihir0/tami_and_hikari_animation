@@ -7,6 +7,7 @@ TagManager:
   - tsukkomi
   - ending_tag
   - Pan_tag
+  - hikari
   layers:
   - Default
   - TransparentFX
