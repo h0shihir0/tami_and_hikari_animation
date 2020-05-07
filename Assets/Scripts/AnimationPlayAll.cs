@@ -59,6 +59,7 @@ public class AnimationPlayAll : MonoBehaviour
     public void AnimeAoudioPlay(int anim_num){
         audio.PlayOneShot(sounds[anim_num]);
         print(sounds[anim_num]);
+        print(this.gameObject.name);
         //int k_num = anim_num + 1;
         //print(animations[anim_num].name);
         //print(tsukkomi.GetComponent<Animation>().Play(animations[anim_num].name));

@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5A0769DA-25DA-A68D-BA58-6ED404CB536B}</ProjectGuid>
+    <ProjectGuid>{77A86180-33AF-772F-0E47-8DCD6132178E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -62,84 +62,46 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\Editor\RecorderEditorBase.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\EXR\Editor\EXRRecorderSettingsEditor.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\GIF\Editor\GIFRecorderSettingsEditor.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\MP4\Editor\Mp4RecorderSettingsEditor.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\PNG\Editor\PngRecorderSettingsEditor.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\WEBM\Editor\WEBMRecorderSettingsEditor.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\MovieRecorder\Audio\Editor\AudioInput.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\MovieRecorder\Audio\Editor\AudioInputSettings.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\MovieRecorder\Audio\Editor\AudioInputSettingsEditor.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\MovieRecorder\Recorder\Editor\MediaRecorder.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\MovieRecorder\Recorder\Editor\MediaRecorderEditor.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\MovieRecorder\Recorder\Editor\MediaRecorderSettings.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Editor\AudioEncoderConfigDrawer.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Editor\AudioRecorderEditor.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Editor\GBufferRecorderEditor.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Editor\Misc\BoolDrawer.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Editor\Misc\DataPathDrawer.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Editor\MovieEncoderConfigDrawer.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Editor\MovieRecorderEditor.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Editor\RecorderBaseEditor.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Editor\AboutBox.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Editor\EnumHelper.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Editor\FileNameDrawer.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Editor\InputEditor.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Editor\OutputPathDrawer.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Editor\RecorderEditor.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Editor\RecorderSelector.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Editor\RecorderWindow.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Editor\RecorderWindowSettings.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Editor\ResolutionSelector.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Editor\RTInputSelector.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Editor\SerializableObjHelper.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Editor\Timeline\RecorderClipEditor.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\Animation\Editor\AnimationInput.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\Animation\Editor\AnimationInputSettings.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\Animation\Editor\AnimationInputSettingsEditor.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\Camera360\Editor\Camera360InputEditor.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\CBRenderTexture\Editor\CBRenderTextureInputSettingsEditor.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\RenderTexture\Editor\RenderTextureInputSettingsEditor.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\RenderTextureSampler\Editor\RenderTextureSamplerEditor.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\ScreenCapture\Editor\ScreenCaptureInputEditor.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Packager\Editor\FRPackagerPaths.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Recorders\AnimationRecorder\Editor\AnimationRecorder.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Recorders\AnimationRecorder\Editor\AnimationRecorderSettings.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Recorders\AnimationRecorder\Editor\AnimationRecorderSettingsEditor.cs" />
-    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Recorders\ImageRecorder\Editor\ImageRecorderEditor.cs" />
+    <Compile Include="Assets\Particles\EffectExamples\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <None Include="Assets\Particles\EffectExamples\Editor\PackageManagerAssembly\PackageImportList.txt" />
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>/Users/hoshinohiroto/Desktop/New Unity Project/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>/Users/hoshinohiroto/Desktop/tami_and_hikari_test_product/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>/Users/hoshinohiroto/Desktop/New Unity Project/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>/Users/hoshinohiroto/Desktop/tami_and_hikari_test_product/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Users/hoshinohiroto/Desktop/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/hoshinohiroto/Desktop/tami_and_hikari_test_product/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>/Users/hoshinohiroto/Desktop/New Unity Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>/Users/hoshinohiroto/Desktop/tami_and_hikari_test_product/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder.Editor">
+      <HintPath>/Users/hoshinohiroto/Desktop/tami_and_hikari_test_product/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/hoshinohiroto/Desktop/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/hoshinohiroto/Desktop/tami_and_hikari_test_product/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder">
+      <HintPath>/Users/hoshinohiroto/Desktop/tami_and_hikari_test_product/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/hoshinohiroto/Desktop/New Unity Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/hoshinohiroto/Desktop/tami_and_hikari_test_product/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/hoshinohiroto/Desktop/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Users/hoshinohiroto/Desktop/tami_and_hikari_test_product/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/hoshinohiroto/Desktop/New Unity Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/hoshinohiroto/Desktop/tami_and_hikari_test_product/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/hoshinohiroto/Desktop/New Unity Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>/Users/hoshinohiroto/Desktop/tami_and_hikari_test_product/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/hoshinohiroto/Desktop/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/hoshinohiroto/Desktop/tami_and_hikari_test_product/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/hoshinohiroto/Desktop/New Unity Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/hoshinohiroto/Desktop/tami_and_hikari_test_product/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -330,8 +292,11 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="PackageManagerAssembly">
+      <HintPath>/Users/hoshinohiroto/Desktop/tami_and_hikari_test_product/Assets/Particles/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>/Users/hoshinohiroto/Desktop/New Unity Project/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>/Users/hoshinohiroto/Desktop/tami_and_hikari_test_product/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.15f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -690,7 +655,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}</Project>
+      <Project>{14F7DEAB-AD15-AB10-FA5A-031E5DE7BEAA}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>

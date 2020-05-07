@@ -11,17 +11,18 @@ public class HikariWalkingAround : MonoBehaviour
     private Vector3 targetpos;
     private float changetarget = 0.05f;
     public float targetdistance;
-  //  private static Random random;
+   // public GameObject particleObject;
+    //  private static Random random;
 
-     public  Vector3 GetRandomPosition()
+    public  Vector3 GetRandomPosition()
     {
         //random = new Random();
         float x_pos = Random.Range(20f, 50f);
         float z_tst = Mathf.Sqrt(175 - Mathf.Pow((x_pos - 35), 2));
         float z_pos = Random.Range(-z_tst+2f, z_tst+2f);
         string x_z_name = "Xは" + x_pos + "Zは" + z_pos;
-        print("Xは" + x_pos + "Zは" + z_pos);
-        this.gameObject.name = "Xは" + x_pos + "Zは" + z_pos;
+     //  print("Xは" + x_pos + "Zは" + z_pos);
+       // this.gameObject.name = "Xは" + x_pos + "Zは" + z_pos;
         string z_str = z_pos.ToString();
         if(z_str == "NaN")
         {
@@ -62,6 +63,7 @@ public class HikariWalkingAround : MonoBehaviour
             Quaternion targetRotation = Quaternion.LookRotation(targetpos - transform.position);
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * rotationspeed);
             transform.Translate(Vector3.forward * speed * Time.deltaTime);
+            print("haikai_else");
         }
 
     }
@@ -72,6 +74,7 @@ public class HikariWalkingAround : MonoBehaviour
     }
     void Update()
     {
+        //print("testdes");
         targetdistance = Vector3.SqrMagnitude(transform.position - targetpos);//二乗を返している
         haikai();
     }
@@ -86,4 +89,27 @@ public class HikariWalkingAround : MonoBehaviour
         //Debug.Log("Hit");
         print(other.gameObject.tag);// ログを表示する
     }
+
+    public void HikariDestroy(){
+        int k = int.Parse(this.gameObject.name);
+        if (0 < k){
+            Invoke("Hika_des",3f);
+
+        }
+    }
+    void Hika_des(){
+        Destroy(this.gameObject);
+    }
+
+    public void HikariSetPosition(){
+        this.gameObject.transform.position = new Vector3(21.53f, -31.3f, 2.38f);
+        this.gameObject.transform.rotation = Quaternion.Euler(0f, 271.575f, 0f);
+        this.gameObject.GetComponent<HikariWalkingAround>().enabled = false;
+    }
+
+    public void ProduceParticle(GameObject particleObject)
+    {
+        Instantiate(particleObject, this.transform.position, Quaternion.identity);
+    }
+
 }
