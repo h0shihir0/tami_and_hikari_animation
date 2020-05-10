@@ -1,18 +1,20 @@
 ﻿<Properties StartupConfiguration="{14F7DEAB-AD15-AB10-FA5A-031E5DE7BEAA}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/AppleDown.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Text-Juicer-master/Scripts/Effects/YModifier.cs">
     <Files>
       <File FileName="Assets/Scripts/tsukkomi_walking_stop.cs" Line="29" Column="1" />
       <File FileName="Assets/Scripts/StratStops.cs" Line="31" Column="29" />
       <File FileName="Assets/Scripts/WaitSeconds.cs" Line="30" Column="32" />
-      <File FileName="Assets/Scripts/AnimationPlayAll.cs" Line="7" Column="1" />
+      <File FileName="Assets/Scripts/AnimationPlayAll.cs" Line="41" Column="153" />
       <File FileName="Assets/Scripts/RotateText.cs" Line="45" Column="1" />
       <File FileName="Assets/Scripts/tsukkomi_walking.cs" Line="34" Column="1" />
       <File FileName="Assets/Scripts/tsukkomi_walking_next.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Hikarimoving.cs" Line="13" Column="1" />
       <File FileName="Assets/Scripts/HikariWalkingAround.cs" Line="25" Column="10" />
-      <File FileName="Assets/Scripts/ProducingHikariRandom.cs" Line="8" Column="6" />
+      <File FileName="Assets/Scripts/ProducingHikariRandom.cs" Line="18" Column="1" />
       <File FileName="Assets/Scripts/AnimationChangeDynamic.cs" Line="9" Column="6" />
-      <File FileName="Assets/Scripts/AppleDown.cs" Line="19" Column="12" />
+      <File FileName="Assets/Scripts/AppleDown.cs" Line="37" Column="1" />
+      <File FileName="Assets/Scripts/Text-Juicer-master/Scripts/JuicedText.cs" Line="63" Column="10" />
+      <File FileName="Assets/Scripts/Text-Juicer-master/Scripts/Effects/YModifier.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

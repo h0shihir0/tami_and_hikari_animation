@@ -14,6 +14,11 @@ public class AnimationPlayAll : MonoBehaviour
     public AudioClip sound06;
     public AudioClip sound07;
     public AudioClip sound08;
+    public AudioClip sound09;
+    public AudioClip sound10;
+    public AudioClip sound11;
+    public AudioClip sound12;
+    public AudioClip sound13;
     public AudioSource main_cam;
     //public Animation animo;
     //public AnimationClip[] anims;
@@ -33,7 +38,7 @@ public class AnimationPlayAll : MonoBehaviour
     {
         //animations = new List<AnimationClip>();
         // Start is called before the first frame update
-        sounds = new AudioClip[] { sound01, sound02, sound03, sound04, sound05, sound06, sound07, sound08 };
+        sounds = new AudioClip[] { sound01, sound02, sound03, sound04, sound05, sound06, sound07, sound08, sound09, sound10, sound11, sound12, sound13};
         //anims = new AnimationClip[] { anim01, anim02, anim03, anim04, anim05, anim06, anim07, anim08 };
         //StartCoroutine("Wait");
         //foreach (AnimationState anim in tsukkomi.GetComponent<Animation>())
@@ -73,6 +78,12 @@ public class AnimationPlayAll : MonoBehaviour
         main_cam.enabled = false;
 
     }
+
+    public void ProduceParticleForAll(GameObject particleObject)
+    {
+        Instantiate(particleObject, this.transform.position, Quaternion.identity);
+    }
+
 
 
 }

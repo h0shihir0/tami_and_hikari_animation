@@ -14,6 +14,7 @@ public class StratStops : MonoBehaviour
     public Animator lyl_text;
     public Animator con_phra_txt;
     public Animator cars;
+    public GameObject newchara_line;
 
     void Start()
     {
@@ -44,9 +45,13 @@ public class StratStops : MonoBehaviour
         cars.enabled = true;
     }
 
+    public void newcharaIsOn(){
+        newchara_line.SetActive(true);
+    }
+
     // Update is called once per frame
     void Update()
     {
-
+        //newchara_line.SetActive(true);
     }
 }
