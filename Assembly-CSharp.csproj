@@ -62,6 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\3Dobj\Planet Earth Free\SpinFree.cs" />
     <Compile Include="Assets\Particles\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
     <Compile Include="Assets\Particles\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
     <Compile Include="Assets\Particles\EffectExamples\Shared\Scripts\GunAim.cs" />
@@ -76,6 +77,7 @@
     <Compile Include="Assets\Scripts\Hikarimoving.cs" />
     <Compile Include="Assets\Scripts\HikariWalkingAround.cs" />
     <Compile Include="Assets\Scripts\lose_tsukkomi_walking.cs" />
+    <Compile Include="Assets\Scripts\MobMovingAround.cs" />
     <Compile Include="Assets\Scripts\ProducingHikariRandom.cs" />
     <Compile Include="Assets\Scripts\RotateText.cs" />
     <Compile Include="Assets\Scripts\StratStops.cs" />
@@ -83,49 +85,9 @@
     <Compile Include="Assets\Scripts\tsukkomi_walking_next.cs" />
     <Compile Include="Assets\Scripts\tsukkomi_walking_stop.cs" />
     <Compile Include="Assets\Scripts\WaitSeconds.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Demigiant\DOTween\Examples\Basics.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Demigiant\DOTween\Examples\Sequences.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Fugaku\Deformer\BySpeed.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Fugaku\Deformer\CircleForceField.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Fugaku\Deformer\Deformer.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Fugaku\Deformer\Subdivide.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Fugaku\Deformer\Utility\GizmoUtility.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Fugaku\Deformer\Utility\ListPool.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Fugaku\Deformer\Utility\ObjectPool.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Fugaku\TypefaceAnimator\Scripts\TypefaceAnimator.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Scripts\Battle.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Scripts\BattleButton.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Scripts\BattleMember.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Scripts\BattleMembersStage.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Scripts\BitmapFontImporter.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Scripts\Card.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Scripts\Character.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Scripts\ClickParticleEffect.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Scripts\ContentController.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Scripts\CoverUI.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Scripts\DragDownToReturn.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Scripts\FightUI.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Scripts\GraphicCaster.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Scripts\Header.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Scripts\HPSliderController.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Scripts\ImageModifier.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Scripts\ListScroll.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Scripts\ParticlePlayAutomatically.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Scripts\ResultUI.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Scripts\SelectedMembers.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Scripts\UIManager.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Scripts\WorldMap.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Scripts\WorldMapBattlePoint.cs" />
-    <None Include="Assets\TextAnimationAsset\Demigiant\DOTween\readme.txt" />
     <None Include="Assets\Particles\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
-    <None Include="Assets\TextAnimationAsset\Demigiant\DOTween\DOTween50.xml" />
-    <None Include="Assets\TextAnimationAsset\Demigiant\DOTween\DOTween46.xml" />
     <None Include="Assets\3Dobj\Smartphone\StandardColorMask.shader" />
-    <None Include="Assets\TextAnimationAsset\Demigiant\DOTween\LICENSE.txt" />
-    <None Include="Assets\TextAnimationAsset\Fonts\Victory.xml" />
-    <None Include="Assets\TextAnimationAsset\Demigiant\DOTween\DOTween43.xml" />
-    <None Include="Assets\TextAnimationAsset\Fonts\Fight.xml" />
-    <None Include="Assets\TextAnimationAsset\Fonts\Numbers.xml" />
+    <None Include="Assets\scenes\READ ME - About Scene.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/hoshinohiroto/Desktop/tami_and_hikari_test_product/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -335,18 +297,6 @@
     </Reference>
     <Reference Include="UnityEngine.XRModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween50">
-      <HintPath>/Users/hoshinohiroto/Desktop/tami_and_hikari_test_product/Assets/TextAnimationAsset/Demigiant/DOTween/DOTween50.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween">
-      <HintPath>/Users/hoshinohiroto/Desktop/tami_and_hikari_test_product/Assets/TextAnimationAsset/Demigiant/DOTween/DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween43">
-      <HintPath>/Users/hoshinohiroto/Desktop/tami_and_hikari_test_product/Assets/TextAnimationAsset/Demigiant/DOTween/DOTween43.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween46">
-      <HintPath>/Users/hoshinohiroto/Desktop/tami_and_hikari_test_product/Assets/TextAnimationAsset/Demigiant/DOTween/DOTween46.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.15f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

@@ -63,10 +63,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Particles\EffectExamples\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Fugaku\Deformer\Editor\DeformerInspector.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Fugaku\Deformer\Editor\ForceFieldListDrawer.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Fugaku\TypefaceAnimator\Editor\TypefaceAnimatorEditor.cs" />
-    <Compile Include="Assets\TextAnimationAsset\Fugaku\TypefaceAnimator\Editor\TypefaceTools.cs" />
     <None Include="Assets\Particles\EffectExamples\Editor\PackageManagerAssembly\PackageImportList.txt" />
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>/Users/hoshinohiroto/Desktop/tami_and_hikari_test_product/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
@@ -298,21 +294,6 @@
     </Reference>
     <Reference Include="PackageManagerAssembly">
       <HintPath>/Users/hoshinohiroto/Desktop/tami_and_hikari_test_product/Assets/Particles/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween50">
-      <HintPath>/Users/hoshinohiroto/Desktop/tami_and_hikari_test_product/Assets/TextAnimationAsset/Demigiant/DOTween/DOTween50.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween">
-      <HintPath>/Users/hoshinohiroto/Desktop/tami_and_hikari_test_product/Assets/TextAnimationAsset/Demigiant/DOTween/DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween43">
-      <HintPath>/Users/hoshinohiroto/Desktop/tami_and_hikari_test_product/Assets/TextAnimationAsset/Demigiant/DOTween/DOTween43.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween46">
-      <HintPath>/Users/hoshinohiroto/Desktop/tami_and_hikari_test_product/Assets/TextAnimationAsset/Demigiant/DOTween/DOTween46.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTweenEditor">
-      <HintPath>/Users/hoshinohiroto/Desktop/tami_and_hikari_test_product/Assets/TextAnimationAsset/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>/Users/hoshinohiroto/Desktop/tami_and_hikari_test_product/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>

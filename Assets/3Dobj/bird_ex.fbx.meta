@@ -1,0 +1,203 @@
+fileFormatVersion: 2
+guid: 000581ea6928b40b0ae30c846fde10a2
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable:
+  - first:
+      74: 2923679690288168374
+    second: Cube_1_2|Cube.001|C4D Animation Take|Layer0
+  - first:
+      74: 4647276745604985151
+    second: Cube_1_2|Cube_1_2|C4D Animation Take|Layer0
+  - first:
+      74: -2013972958195959374
+    second: Cube_1_2|Cube_1|C4D Animation Take|Layer0
+  - first:
+      74: 2425302276767497551
+    second: Cube_1_2|Cube_2|C4D Animation Take|Layer0
+  - first:
+      74: -6546523654388077734
+    second: Cube_1_2|Taper_2|C4D Animation Take|Layer0
+  - first:
+      74: 3887029160717695571
+    second: Cube_1_2|Taper|C4D Animation Take|Layer0
+  - first:
+      74: -4307404260438105714
+    second: Taper|Cube.001|C4D Animation Take|Layer0
+  - first:
+      74: 6635627715512227116
+    second: Taper|Cube_1_2|C4D Animation Take|Layer0
+  - first:
+      74: -7644299839623905006
+    second: Taper|Cube_1|C4D Animation Take|Layer0
+  - first:
+      74: 572972614381625940
+    second: Taper|Cube_2|C4D Animation Take|Layer0
+  - first:
+      74: 609066556237518731
+    second: Taper|Taper_2|C4D Animation Take|Layer0
+  - first:
+      74: 8005431345456975040
+    second: Taper|Taper|C4D Animation Take|Layer0
+  - first:
+      74: -7773181178887120037
+    second: Cube_1|Cube.001|C4D Animation Take|Layer0
+  - first:
+      74: -1982215790754367440
+    second: Cube_1|Cube_1_2|C4D Animation Take|Layer0
+  - first:
+      74: 9116728849799136153
+    second: Cube_1|Cube_1|C4D Animation Take|Layer0
+  - first:
+      74: 7623740665775066842
+    second: Cube_1|Cube_2|C4D Animation Take|Layer0
+  - first:
+      74: -1295361640413012428
+    second: Cube_1|Taper_2|C4D Animation Take|Layer0
+  - first:
+      74: -4295645233158370657
+    second: Cube_1|Taper|C4D Animation Take|Layer0
+  - first:
+      74: 8258385563848481454
+    second: Cube_2|Cube.001|C4D Animation Take|Layer0
+  - first:
+      74: -7752708828640238611
+    second: Cube_2|Cube_1_2|C4D Animation Take|Layer0
+  - first:
+      74: -1132520653669447069
+    second: Cube_2|Cube_1|C4D Animation Take|Layer0
+  - first:
+      74: 7904228785313576687
+    second: Cube_2|Cube_2|C4D Animation Take|Layer0
+  - first:
+      74: 8482566096627876
+    second: Cube_2|Taper_2|C4D Animation Take|Layer0
+  - first:
+      74: 7230076786501341411
+    second: Cube_2|Taper|C4D Animation Take|Layer0
+  - first:
+      74: 1657813989153745707
+    second: Taper_2|Cube.001|C4D Animation Take|Layer0
+  - first:
+      74: -8150001405588054693
+    second: Taper_2|Cube_1_2|C4D Animation Take|Layer0
+  - first:
+      74: -2715913672017208771
+    second: Taper_2|Cube_1|C4D Animation Take|Layer0
+  - first:
+      74: -932911361529957927
+    second: Taper_2|Cube_2|C4D Animation Take|Layer0
+  - first:
+      74: -4916312168508744421
+    second: Taper_2|Taper_2|C4D Animation Take|Layer0
+  - first:
+      74: 7064680366257674341
+    second: Taper_2|Taper|C4D Animation Take|Layer0
+  - first:
+      74: 1789670153687008055
+    second: Cube.001|Cube.001|C4D Animation Take|Layer0
+  - first:
+      74: 4434892769509591926
+    second: Cube.001|Cube_1_2|C4D Animation Take|Layer0
+  - first:
+      74: 5720202046352677313
+    second: Cube.001|Cube_1|C4D Animation Take|Layer0
+  - first:
+      74: 6889360600707716873
+    second: Cube.001|Cube_2|C4D Animation Take|Layer0
+  - first:
+      74: -659175507215406814
+    second: Cube.001|Taper_2|C4D Animation Take|Layer0
+  - first:
+      74: -7021646903985563543
+    second: Cube.001|Taper|C4D Animation Take|Layer0
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
