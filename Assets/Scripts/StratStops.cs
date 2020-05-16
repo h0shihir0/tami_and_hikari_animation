@@ -29,7 +29,7 @@ public class StratStops : MonoBehaviour
         con_phra_txt.enabled = false;
         cars.enabled = false;
        // print(main_cam.enabled);
-      Invoke("ReStart", 3f);
+      Invoke("ReStart", 2f);
     }
 
     void ReStart(){

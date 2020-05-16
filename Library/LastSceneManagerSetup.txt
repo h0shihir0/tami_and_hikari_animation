@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/scenes/MiniMini/MiniMiniOp.unity
+- path: Assets/scenes/MiniMini/MiniMiniShortMovie_5-1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

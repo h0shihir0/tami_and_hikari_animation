@@ -62,6 +62,7 @@ public class AnimationPlayAll : MonoBehaviour
     //}
 
     public void AnimeAoudioPlay(int anim_num){
+        print(anim_num);
         audio.PlayOneShot(sounds[anim_num]);
         print(sounds[anim_num]);
         print(this.gameObject.name);
