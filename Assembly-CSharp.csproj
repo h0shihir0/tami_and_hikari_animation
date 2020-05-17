@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\AnimationChangeDynamic.cs" />
     <Compile Include="Assets\Scripts\AnimationPlayAll.cs" />
     <Compile Include="Assets\Scripts\AppleDown.cs" />
+    <Compile Include="Assets\Scripts\CameraOperation.cs" />
     <Compile Include="Assets\Scripts\Hikarimoving.cs" />
     <Compile Include="Assets\Scripts\HikariWalkingAround.cs" />
     <Compile Include="Assets\Scripts\lose_tsukkomi_walking.cs" />

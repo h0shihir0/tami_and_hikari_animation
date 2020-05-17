@@ -10,6 +10,9 @@ public class ProducingHikariRandom : MonoBehaviour
    // public GameObject tami;
     GameObject hika_obj;
     public GameObject parent_plane;
+    //public GameObject name_text;
+    //public GameObject username_text;
+
 
     // Start is called before the first frame update
     void Start()
@@ -18,21 +21,32 @@ public class ProducingHikariRandom : MonoBehaviour
     }
 
     public void ProduceMob(){
+        //for (int r = 1; r <= 120; r++)
+        //{
+        //    mobbox = Instantiate(mob_obj, new Vector3(0, 0, 0), Quaternion.identity);
+        //    // mobbox.transform.localScale = new Vector3(0.075f, 0.075f, 0.075f);
+        //   // mobbox.transform.localScale = new Vector3(0.4f, 0.4f, 0.4f);
+        //    mobbox.transform.position = new Vector3(Random.Range(-20f, 20f), mob_obj.transform.position.y, Random.Range(-20f, 20f));
+        //    mobbox.transform.rotation = Quaternion.Euler(0, Random.Range(0,360), 0);
+        //    StartCoroutine(MobAnimon(mobbox));
+        //}
+        StartCoroutine("MobAnimation");
+    }
+
+    IEnumerator MobAnimation(){
         for (int r = 1; r <= 120; r++)
         {
             mobbox = Instantiate(mob_obj, new Vector3(0, 0, 0), Quaternion.identity);
             // mobbox.transform.localScale = new Vector3(0.075f, 0.075f, 0.075f);
-           // mobbox.transform.localScale = new Vector3(0.4f, 0.4f, 0.4f);
+            // mobbox.transform.localScale = new Vector3(0.4f, 0.4f, 0.4f);
             mobbox.transform.position = new Vector3(Random.Range(-20f, 20f), mob_obj.transform.position.y, Random.Range(-20f, 20f));
-            mobbox.transform.rotation = Quaternion.Euler(0, Random.Range(0,360), 0);
-            StartCoroutine(MobAnimon(mobbox));
+            mobbox.transform.rotation = Quaternion.Euler(0, Random.Range(0, 360), 0);
+            //string k = System.Guid.NewGuid().ToString("N").Substring(0, 10).ToUpper();
+            //mobbox.name = k;
+            yield return new WaitForSeconds(0.0001f);
         }
-    }
-
-    public IEnumerator MobAnimon(GameObject obj){
-        yield return new WaitForSeconds(0.1f);
-        obj.GetComponent<Animator>().enabled = true;
-        print(mobbox.name);
+        //obj.GetComponent<Animator>().enabled = true;
+        //print(mobbox.name);
 
     }
 
