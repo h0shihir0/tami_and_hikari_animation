@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{14F7DEAB-AD15-AB10-FA5A-031E5DE7BEAA}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraOperation.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MobFlameTweetController.cs">
     <Files>
       <File FileName="Assets/Scripts/tsukkomi_walking_stop.cs" Line="29" Column="1" />
       <File FileName="Assets/Scripts/StratStops.cs" Line="32" Column="29" />
@@ -10,14 +10,15 @@
       <File FileName="Assets/Scripts/tsukkomi_walking_next.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Hikarimoving.cs" Line="13" Column="1" />
       <File FileName="Assets/Scripts/HikariWalkingAround.cs" Line="66" Column="34" />
-      <File FileName="Assets/Scripts/ProducingHikariRandom.cs" Line="14" Column="39" />
+      <File FileName="Assets/Scripts/ProducingHikariRandom.cs" Line="46" Column="51" />
       <File FileName="Assets/Scripts/AnimationChangeDynamic.cs" Line="17" Column="18" />
-      <File FileName="Assets/Scripts/AppleDown.cs" Line="37" Column="1" />
+      <File FileName="Assets/Scripts/AppleDown.cs" Line="10" Column="10" />
       <File FileName="Assets/Scripts/TweetOperatingByTanaka.cs" Line="21" Column="40" />
       <File FileName="Assets/Scripts/SpreadingTweetParent.cs" Line="28" Column="32" />
       <File FileName="Assets/TextAnimationasset/Scripts/UIManager.cs" Line="160" Column="42" />
-      <File FileName="Assets/Scripts/MobMovingAround.cs" Line="49" Column="75" />
-      <File FileName="Assets/Scripts/CameraOperation.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MobMovingAround.cs" Line="138" Column="37" />
+      <File FileName="Assets/Scripts/CameraOperation.cs" Line="18" Column="3" />
+      <File FileName="Assets/Scripts/MobFlameTweetController.cs" Line="10" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

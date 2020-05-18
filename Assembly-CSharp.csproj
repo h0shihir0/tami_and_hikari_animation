@@ -78,6 +78,7 @@
     <Compile Include="Assets\Scripts\Hikarimoving.cs" />
     <Compile Include="Assets\Scripts\HikariWalkingAround.cs" />
     <Compile Include="Assets\Scripts\lose_tsukkomi_walking.cs" />
+    <Compile Include="Assets\Scripts\MobFlameTweetController.cs" />
     <Compile Include="Assets\Scripts\MobMovingAround.cs" />
     <Compile Include="Assets\Scripts\ProducingHikariRandom.cs" />
     <Compile Include="Assets\Scripts\RotateText.cs" />

@@ -30,7 +30,8 @@ public class MobMovingAround : MonoBehaviour
     public Vector3 GetRandomPosition()
     {
         //return new Vector3(x_pos, transform.position.y, z_pos);
-        return new Vector3(Random.Range(-20f,20f), transform.position.y, Random.Range(-20f,20f));
+        // return new Vector3(Random.Range(-20f,20f), transform.position.y, Random.Range(-20f,20f));
+        return new Vector3(-1.02f, transform.position.y, -3.51f);
 
     }
     void haikai()
